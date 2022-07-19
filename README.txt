@@ -9,3 +9,14 @@
 // Use this command to get Tailwind working correctly:
 // $ npx tailwindcss -i ./static/src/input.css -o ./static/css/main.css --watch
 //
+// Этот проект создан с использованием:
+// Python + Django + Compressor CSS
+// Tailwind CSS + Flowbite
+//
+// При работе с проектом необходимо использовать виртуальную среду. В нашем случае - PyEnv.
+//
+// Перед работой с проектом не забудьте установить все зависимости с помощью команды:
+// // $ pip install -r requirements.txt
+// Используйте эту команду для корректной работы Tailwind:
+// $ npx tailwindcss -i ./static/src/input.css -o ./static/css/main.css --watch
+//
