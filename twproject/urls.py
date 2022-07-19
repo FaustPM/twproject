@@ -16,8 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from .views import index
+# from contact_form.views import ContactForm, success
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='index'),
+    # path('', ContactCreate.as_view(), name='contact_page'),
+    # path('success/', success, name='success_page')
 ]
