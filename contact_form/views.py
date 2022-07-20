@@ -4,7 +4,7 @@ from .models import Contact
 from django.urls import reverse_lazy
 from django.http import HttpResponse
 from django.core.mail import send_mail
-from .forms import ContactForm
+from .Form import ContactForm
 
 
 class ContactCreate(CreateView):

@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'compressor',
     'personal',
-    # 'contact_form.apps.ContactFormConfig',
+    'contact_form.apps.ContactFormConfig',
 ]
 
 MIDDLEWARE = [
