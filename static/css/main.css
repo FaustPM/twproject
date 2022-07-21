@@ -993,35 +993,6 @@ html,
   margin: 0;
 }
 
-.background {
-  width: 80%;
-  height: 100%;
-  background: transparent;
-  margin: 0 auto;
-  position: relative;
-}
-
-.background div {
-  position: absolute;
-  border-radius: 50%;
-}
-
-/*python icon*/
-
-.outline {
-  width: 280px;
-  height: 280px;
-  border: 1px dashed black;
-  top: calc(50% - 140px);
-  left: calc(50% - 140px);
-}
-
-/*java script icon*/
-
-/*Юпитер*/
-
-/*Сатурн*/
-
 .sr-only {
   position: absolute;
   width: 1px;
