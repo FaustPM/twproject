@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ContactFormConfig(AppConfig):
+class FeedbackConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'contact_form'
+    name = 'feedback'
