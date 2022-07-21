@@ -22,7 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='index'),
 
-
     # path('', ContactCreate.as_view(), name='contact_page'),
     # path('success/', success, name='success_page')
 ]
