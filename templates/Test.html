@@ -107,3 +107,66 @@
     </div>
 </div>
 <!-- contact end -->
+
+<!-- contact -->
+<div class="container mx-auto">
+
+    <div class="uppercase tracking-wide text-5xl text-center">If you still have <span
+            class="inline-block text-teal-300">questions</span>...
+    </div>
+    <!--  -->
+    <div class="my-7 relative z-0 overflow-hidden bg-no-repeat bg-cover rounded-xl" style="
+        background-position: 50%;
+        background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp');
+        height: 420px;
+      ">
+        <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+             style="background-color: rgba(0, 0, 0, 0.75)">
+            <div class="flex justify-center items-center h-full">
+                <div class="text-center text-white px-6 md:px-12">
+                    <form action="{% url 'feedback_view' %}" method="POST">
+
+                        {% csrf_token %}
+
+<!--                        <input name="email">-->
+<!--                        <input name="message">-->
+<!--                        <button type="submit">1234567890</button>-->
+                        <h1 class="text-5xl font-bold my-9">Write to us!</h1>
+                        <!--  -->
+                        <label for="email-address-icon"
+                               class="my-8 block mb-2 text-sm font-medium text-white dark:text-gray-300">Your
+                            Email</label>
+                        <div class="relative">
+                            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                                <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor"
+                                     viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                                </svg>
+                            </div>
+                            <input name="email" type="text" id="email-address-icon"
+                                   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="E-mail">
+                        </div>
+                        <!--  -->
+                        <!---->
+                        <label for="message" class="my-4 block mb-2 text-sm font-medium text-white dark:text-gray-400">Your
+                            message</label>
+                        <textarea name="message" id="message" rows="4"
+                                  class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                  placeholder="Leave a comment..."></textarea>
+                        <!---->
+                        <!--  -->
+                        <button type="submit"
+                                class="my-7 inline-block px-6 py-2.5 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                                data-mdb-ripple="true" data-mdb-ripple-color="light">
+                            Send an email
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<!-- contact end -->
